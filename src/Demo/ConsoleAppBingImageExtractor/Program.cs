@@ -8,7 +8,7 @@ namespace ConsoleAppBingImageExtractor
     {
         public static async Task Main(string[] args)
         {
-            var uri = await new BingImageProcess().GetBingImageAsync();
+            var uri = await new BingImageProcessor().GetBingImageAsync();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Bing Image Url: ");
