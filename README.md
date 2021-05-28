@@ -9,12 +9,12 @@ This code uses .NET Core 5 and **System.Text.Json** to deserialize the JSON docu
 ## How to use it?
 The use of this library is very simple.
 
-You have to instantiate the **BingImageProcessor** only and call to the **GetBingImageAsync** method.
+You have to instantiate the [**BingImageProcessor**](src/BingImageExtractor/BingImageProcessor.cs) only and call to the **GetBingImageAsync** method.
 
 This method will return the URI with the image shown in Bing.com.
 
 ```csharp
-var uri = await new BingImageProcess().GetBingImageAsync();
+var uri = await new BingImageProcessor().GetBingImageAsync();
 ```
 
 # How to - Functional details to extract the image from Bing.com
