@@ -4,7 +4,7 @@
 This is a tiny library to extract the background image shown in Bing.com daily (*only the last one*)
 
 ## .NET Core 5
-This code uses [**.NET Core 5**](https://dotnet.microsoft.com/download/dotnet/5.0) and **System.Text.Json** to deserialize the JSON document from [Bing.com](https://bing.com).
+This code uses [**.NET Core 5**](https://dotnet.microsoft.com/download/dotnet/5.0) and [**System.Net.Http.Json**](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.json?view=net-5.0) that uses internally [**System.Text.Json**](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=net-5.0) to deserialize the JSON document from [Bing.com](https://bing.com).
 
 ## How to use it?
 The use of this library is very simple.
