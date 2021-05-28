@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BingImageExtractor
 {
-    public class BingImageProcess
+    public class BingImageProcessor
     {
         private readonly Uri _bingURl = new Uri("https://www.bing.com");
 
