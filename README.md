@@ -35,4 +35,8 @@ Regarding the **JSON** document, in the library you will find the entities that 
 
 The entity **BingImage** represents an array, and in their first element you will find the image that we are looking for.
 
+*JSON document sample extracted from Bing.com directly*
+
+![BingImageExtractor_JSON_Sample.JPG](BingImageExtractor_JSON_Sample.JPG)
+
 > Note: You could extend this library to get more images in older days, but this library get the last one only.
